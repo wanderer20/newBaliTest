@@ -1,0 +1,31 @@
+* {
+    font-family: 'MuseoSansCyrl', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+    max-width: 1366px;
+    min-width: 375px;
+    margin: auto;
+    width: 70%;
+    background: url(img/fon.svg) no-repeat;
+    background-size: cover;
+}
+
+.wrap__header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    flex: 1px;
+    justify-content: center;
+}
+
+.vector_img{
+    height: 63px;
+    width: 142px;
+}
