@@ -3,29 +3,55 @@
     font-style: normal;
     font-weight: 500;
 	margin: 0;
-	padding: 0;
+    padding: 0;
 }
 
-.wrapper {
+body{
     max-width: 1366px;
     min-width: 375px;
-    margin: auto;
-    width: 70%;
-    background: url(img/fon.svg) no-repeat;
+    background: url(img/fon.jpg) no-repeat;
     background-size: cover;
 }
 
-.wrap__header {
+.wrapper {
+    margin: auto;
+    width: 90%;
+}
+
+.header{
     display: flex;
     justify-content: space-between;
 }
 
-.container {
-    flex: 1px;
-    justify-content: center;
+.vector__img{
+    padding: 40% 0;
+    margin-right: 63%;
 }
 
-.vector_img{
-    height: 63px;
-    width: 142px;
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+.menu__item{
+    padding: 0 13px;
+    font-family: 'Museo Sans Cyrl';
+    font-size: 22px;
+    line-height: 56px;
+    text-decoration: none;
+    color: #F8EEE4;
+}
+
+.main__section {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about__bali {
+    background: url(img/Bali.jpg) no-repeat;
+    background-size: cover;
+}
+
+.about__indonesia {
+    background: url(img/Indonesia.jpg) no-repeat;
 }
