@@ -48,10 +48,25 @@ body{
 }
 
 .about__bali {
-    background: url(img/Bali.jpg) no-repeat;
-    background-size: cover;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 260px;
+    line-height: 320px;
+    display: flex;
+    align-items: center;
+    color: #F8EEE4;
+    opacity: 0.4;
 }
 
 .about__indonesia {
-    background: url(img/Indonesia.jpg) no-repeat;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 95px;
+    line-height: 0;
+    align-items: center;
+    position: absolute;
+    margin-left: 70px;
+    color: #F8EEE4;
 }
