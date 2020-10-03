@@ -51,8 +51,9 @@ body{
     font-family: PT Serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 260px;
-    line-height: 320px;
+    font-size: 350px;
+    line-height: 300px;
+    left: 20px;
     display: flex;
     align-items: center;
     color: #F8EEE4;
@@ -63,10 +64,13 @@ body{
     font-family: PT Serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 95px;
+    font-size: 130px;
     line-height: 0;
+    left: 100px;
+    top: -25px;
+    bottom: 0px;
     align-items: center;
-    position: absolute;
-    margin-left: 70px;
+    position: relative;
     color: #F8EEE4;
+
 }
