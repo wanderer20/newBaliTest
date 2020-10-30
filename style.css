@@ -11,15 +11,15 @@ body{
 }
 
 .wrapper {
-    margin: 0 auto;
+    margin-left: 100px;
     max-width: 1530px;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
-    padding-top: 86px;
-    padding-bottom: 164px;
+    padding-top: 75px;
+    padding-bottom: 120px;
 }
 
 /*.vector__img{
@@ -28,9 +28,9 @@ body{
 }*/
 
 .menu {
-    left: 70px;
+    margin-left: 61%;
+    padding-bottom: 2px;
     display: flex;
-    align-items: center;
 }
 
 .menu__item{
@@ -74,21 +74,24 @@ body{
 
 }
 
+.div__description {
+    justify-content: space-between;
+}
+
 .about__text {
     font-family: 'MuseoSansCyrl';
     width: 550px;
     font-size: 22px;
-    line-height: 30px;
-    padding-bottom: 0px;
+    line-height: 12px;
     color: #F8EEE4;
+    margin-left: 3%;
 }
 
 .travel__button {
-    position: display;
     width: 300px;
     height: 63px;
     line-height: 150px;
-    left: 40%;
+    margin-left: 4%;
     top: 547px;
     background: #D4BEA3;
     border-radius: 55px;
