@@ -81,14 +81,13 @@ body{
 .about__text {
     font-family: 'MuseoSansCyrl';
     width: 550px;
-    font-size: 22px;
-    line-height: 12px;
+    font-size: 20px;
     color: #F8EEE4;
     margin-left: 3%;
 }
 
 .travel__button {
-    width: 300px;
+    width: 298px;
     height: 63px;
     line-height: 150px;
     margin-left: 4%;
@@ -96,7 +95,13 @@ body{
     background: #D4BEA3;
     border-radius: 55px;
     font-family: Museo Sans Cyrl;
-    font-size: 16px;
+    font-size: 22px;
     line-height: 19px;
     color: #FFFFFF;
+}
+
+.img__bali {
+    background: url(img/One.jpg) no-repeat;
+    background: url(img/Two.jpg) no-repeat;
+    background: url(img/Three.jpg) no-repeat;
 }
