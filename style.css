@@ -27,10 +27,18 @@ body{
     margin-right: 63%;
 }*/
 
-.menu {
-    margin-left: 61%;
-    padding-bottom: 2px;
+.container{
     display: flex;
+    margin-left: 7%;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+
+.menu {
+    margin-left: 60%;
+    margin-bottom: 2px;
+    display: inline-flex;
+    margin-top: 10px;
 }
 
 .menu__item{
@@ -44,6 +52,13 @@ body{
 .main__section {
     display: flex;
     justify-content: space-between;
+}
+
+.main__content {
+    display: inline-block;
+    margin-left: 6%;
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
 
 .about__bali {
@@ -100,8 +115,30 @@ body{
     color: #FFFFFF;
 }
 
-.img__bali {
+.main__img {
+ justify-content: space-between;
+ margin-top: 75px;
+ margin-right: -350px;
+ 
+}
+
+.img__balione {
     background: url(img/One.jpg) no-repeat;
+    display: inline-block;
+    width: 317px;
+    height: 420px;
+}
+
+.img__balitwo {
     background: url(img/Two.jpg) no-repeat;
+    width: 284px;
+    height: 379px;
+    display: inline-block;
+}
+
+.img__balithree{
     background: url(img/Three.jpg) no-repeat;
+    width: 253px;
+    height: 379px;
+    display: inline-block;
 }
