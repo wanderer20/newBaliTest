@@ -11,8 +11,8 @@ body{
 }
 
 .wrapper {
-    margin-left: 100px;
-    max-width: 1530px;
+   /* margin-left: 100px;
+    max-width: 1730px;*/
 }
 
 .header{
@@ -29,14 +29,13 @@ body{
 
 .container{
     display: flex;
-    margin-left: 7%;
+    margin-left: 10%;
     margin-bottom: 20px;
     margin-top: 15px;
 }
 
 .menu {
-    margin-left: 60%;
-    margin-bottom: 2px;
+    margin-left: 10%;
     display: inline-flex;
     margin-top: 10px;
 }
@@ -55,10 +54,9 @@ body{
 }
 
 .main__content {
-    display: inline-block;
-    margin-left: 6%;
+    margin-left: 10%;
     margin-bottom: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .about__bali {
@@ -95,6 +93,7 @@ body{
 
 .about__text {
     font-family: 'MuseoSansCyrl';
+    margin-top: 5px;
     width: 550px;
     font-size: 20px;
     color: #F8EEE4;
