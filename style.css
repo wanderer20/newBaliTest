@@ -10,34 +10,33 @@ body{
     padding: 0;
 }
 
-.wrapper {
-   /* margin-left: 100px;
-    max-width: 1730px;*/
-}
 
 .header{
     display: flex;
     justify-content: space-between;
-    padding-top: 75px;
-    padding-bottom: 120px;
+    align-items: center;
 }
 
-/*.vector__img{
-    padding: 40% 0;
-    margin-right: 63%;
-}*/
+.vector__img{
+    padding-top: 45px;
+}
+
 
 .container{
     display: flex;
-    margin-left: 10%;
-    margin-bottom: 20px;
-    margin-top: 15px;
+    max-width: 1610px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10px;
+    padding-left: 106px;
+    margin: 0 auto;
+
 }
 
 .menu {
-    margin-left: 10%;
     display: inline-flex;
-    margin-top: 10px;
+    padding-top: 45px;
+    padding-left: 920px;
 }
 
 .menu__item{
@@ -54,9 +53,9 @@ body{
 }
 
 .main__content {
-    margin-left: 10%;
+   /* margin-left: 10%;
     margin-bottom: 5px;
-    margin-top: 20px;
+    margin-top: 20px;*/
 }
 
 .about__bali {
