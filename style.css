@@ -17,8 +17,12 @@ body{
     align-items: center;
 }
 
-.vector__img{
-    padding-top: 45px;
+.vector__img {
+    margin-top: 45px;
+}
+
+.vector {
+    margin-top: 45px;
 }
 
 
