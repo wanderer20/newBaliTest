@@ -17,7 +17,6 @@ body{
 }
 .header {
      padding: 84px 0;
-     margin-left: 199px;
 }
 
 
@@ -57,7 +56,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 196px;
     padding-top: 84px;
 }
 
@@ -161,7 +159,7 @@ body{
 @media (max-width: 1920px) {
     .wrapper {
         margin: 0 auto;
-        width: 102%;
+        width: 80%;
     }
 }
 
@@ -187,7 +185,7 @@ body{
     .header_burger {
     display: block;
     position: relative;
-    width: 30px;
+    width: 34px;
     height: 20px;
     }
     
@@ -195,8 +193,8 @@ body{
         position: absolute;
         background-color: ivory;
         left: 0;
-        width: 100px;
-        height: 2px;
+        width: 50px;
+        height: 4px;
         top: 9px;
         transition: all 0.3s ease 0s;
     }
@@ -206,8 +204,8 @@ body{
         content:'';
         background-color: ivory;
         position: absolute;
-        width: 100px;
-        height: 2px;
+        width: 50px;
+        height: 4px;
         left: 0;
         transition: all 0.3s ease 0s;
     }
