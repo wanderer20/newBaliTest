@@ -11,10 +11,6 @@ body{
     width: 1920px;*/
 }
 
-.wrapper {
-    margin: 0 auto;
-    width: 102%;
-}
 .header {
      padding: 84px 0;
 }
@@ -26,7 +22,7 @@ body{
     justify-content: space-between;
     align-items: center;
     /*padding: 0 10px;*/
-    padding-right: 87px;
+    /*padding-right: 87px;*/
    /* margin: 0 auto;*/
 
 }
@@ -42,7 +38,6 @@ body{
     display: flex;
     padding-top: 15px;
     padding-bottom: 16px;
-    padding-right: 13px;
     font-size: 22px;
 }
 
@@ -131,6 +126,7 @@ body{
     column-gap: 18px;
     align-items: center;
     padding-top: 56px;
+    margin-right: -219px;
 }
 
 .img__balione {
