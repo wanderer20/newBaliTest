@@ -173,6 +173,181 @@ body{
 }
 
 @media (max-width:375px) {
+
+    body{
+        background: url(img/fon.jpg) no-repeat;
+        background-repeat: no-repeat;
+        background-position: center center;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        margin: 0px;
+    }
+    
+    .wrapper {
+        width: 100%;
+    }
+    .vector__img {
+        width: 105px;
+        height: 39px;
+        margin-left: 39px;
+        margin-top: 42px;
+    }
+    .about__bali {
+        font: 700 168px/83px 'PT Serif';
+        background-blend-mode: overlay;
+        display: flex;
+        position: relative;
+        margin-left: -43px;
+    }
+
+    .about__indonesia {
+        font: 700 56px/41px 'PT Serif';
+        color: #F8EEE4;
+        letter-spacing: 2px;
+        left: 99px;
+        top: 7px;
+    }
+
+    .main__section {
+        display: flex;
+        justify-content: space-between;
+        margin-left: 2px;
+        padding-top: 71px;
+    }
+
+    .about__text{
+        display: flex;
+        font-size: 18px;
+        color: #F8EEE4;
+        margin-top: 42px;
+        text-align: center;
+        margin-right: 5%;
+        margin-left: 15%;
+    }
+
+    .travel__button{
+        width: 284px;
+        height: 56px;
+        margin-left: 12%;
+        margin-top: 7%;
+        top: 547px;
+        background: #D4BEA3;
+        border-radius: 55px;
+        font-size: 22px;
+        line-height: 19px;
+        outline: none;
+        border: none;
+        letter-spacing: 1px;
+        color: #FFFFFF;
+    }
+
+    .div__description{
+        max-width: 100%;
+    }
+
+    .main__img {
+        display: none;
+    }
+
+    .menu_list {
+        display: none;
+    }
+
+    .menu-open{
+        display: block;
+    }
+
+    .header_burger {
+        display: block;
+        position: relative;
+        height: 20px;
+        }
+        
+        .header_burger span{
+            position: absolute;
+            background-color: ivory;
+            left: 0;
+            width: 50px;
+            height: 4px;
+            top: 9px;
+            transition: all 0.3s ease 0s;
+        }
+    
+        .header_burger:before,
+        .header_burger:after{
+            content:'';
+            background-color: ivory;
+            position: absolute;
+            width: 50px;
+            height: 4px;
+            left: 0;
+            transition: all 0.3s ease 0s;
+        }
+    
+        .header_burger:before{
+            top: 0;
+        }
+    
+        .header_burger:after{
+            bottom: 0;
+        }
+    
+        .header_burger.active span {
+            transform: scale(0);
+        }
+    
+        .header_burger.active:before {
+            transform: rotate(45deg);
+            top: 9px;
+        }
+    
+        .header_burger.active:after {
+            transform: rotate(-45deg);
+            bottom: 9px;
+        }
+
+        input {
+            display: none;
+        }
+        
+        .menu__item{font-size: 32px;line-height: 61px;top: 165px;}
+        .header {
+            padding: 38px 0px;
+            margin-bottom: 15px;
+            margin-right: 66px;
+            padding-top: 11px;
+        }    
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /*
+    .wrapper {
+        width: 143%;
+    }
     
     .body.lock{
         overflow: hidden;
@@ -247,5 +422,5 @@ body{
 
     .menu_list{
         display: block;
-    }
+    }*/
 }
