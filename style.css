@@ -18,7 +18,7 @@ body{
 
 .wrapper{
     margin-left: auto;
-    width: 90%;
+    width: 89.9%;
 }
 
 .header_burger{
@@ -42,17 +42,20 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-top: 84px;
+    padding-top: 85px;
 }
 
 .main__content {
-   /* margin-left: 10%;
-    margin-bottom: 5px;
-    margin-top: 20px;*/
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    width: 49%;
 }
 
 .description__balind {
     position: relative;
+    width: 100%;
 }
 
 .about__bali {
@@ -61,8 +64,8 @@ body{
     font-weight: bold;
     font-size: 280px;
     line-height: 300px;
+    bottom: 14px;
     position: relative;
-    align-items: center;
     color: #F8EEE4;
     opacity: 0.4;
 }
@@ -73,21 +76,20 @@ body{
     font-weight: bold;
     font-size: 98px;
     line-height: 0;
-    left: 72px;
-    bottom: 39px;
-    align-items: center;
+    left: 85px;
+    bottom: 55px;
     position: absolute;
     color: #F8EEE4;
 
 }
 
 .div__description {
-    /*justify-content: space-between;*/
+    margin: 0px 0px 4px 25px;
 }
 
 .about__text {
     font-family: 'MuseoSansCyrl';
-    max-width: 550px;
+    max-width: 500px;
     font-size: 20px;
     color: #F8EEE4;
     letter-spacing: 0.2px;
