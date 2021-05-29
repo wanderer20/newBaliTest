@@ -9,20 +9,16 @@ body{
 }
 
 .header {
-     padding: 84px 0;
+    padding: 84px 0;
+    display: flex;
+    width: 93.4%;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .wrapper{
     margin-left: auto;
     width: 90%;
-}
-
-
-.container{
-    display: flex;
-    max-width: 1630px;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .header_burger{
@@ -33,12 +29,11 @@ body{
 }
 
 .menu {
-    letter-spacing: -0.8px;
     font-size: 22px;
 }
 
 .menu__item{
-    padding: 0 13px 0 25px;
+    padding: 0 8px 0 25px;
     text-decoration: none;
     color: #F8EEE4;
 }
