@@ -24,6 +24,8 @@ body{
 .header_burger{
     display: none;
 }
+
+
 .vector{
     padding-top: 2px;
 }
@@ -138,20 +140,193 @@ body{
     border-radius: 5px;
 }
 
-
-
-    @media (max-width: 1366px) {
+    @media (max-width: 1433px) {
         .wrapper {
-            width: 143%;
+            margin: 0 auto;
+            width: 133.9%;
         }
+
+        .header {
+            padding: 84px 0;
+            display: flex;
+            width: 94.4%;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .vector {
+            padding-top: 2px;
+            /* width: 55%; */
+            /*margin-left: 205px;*/
+        }
+
+        .main__content {
+            position: relative;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: auto;
+            width: 43%;
+        }
+
+        .main__img {
+            display: flex;
+            justify-content: space-between;
+            column-gap: 18px;
+            align-items: center;
+            padding-top: 45px;
+        }
+        
     }
 
     @media (max-width: 1024px) {
-        .wrapper {
-        margin: 0px auto 0px 2px;
-        width: 172%;
+        
+        body{
+            background: url(img/fon.jpg) no-repeat;
+            font-family: 'MuseoSansCyrl', sans-serif;
+            font-style: normal;
+            font-weight: 500;
+            margin: 0;
+
         }
-    }
+
+        .header {
+            padding: 53px 0;
+            display: flex;
+            width: 99.4%;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .wrapper{
+            margin-left: auto;
+            width: 100%;
+        }
+
+        .header_burger{
+            display: none;
+        }
+        .vector{
+            margin-left: 18px;
+            margin-top: 10px;
+            height: 38px;
+        }
+
+        .vector__img{
+            width: 100%;
+        }
+
+        .menu {
+            font-size: 14px;
+            margin-top: 11px;
+        }
+
+        .menu__item{
+            padding: 0 8px 0 25px;
+            text-decoration: none;
+            color: #F8EEE4;
+        }
+
+        .main__section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+        }
+
+        .main__content {
+            position: relative;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: auto;
+            width: 58%;
+        }
+
+        .description__balind {
+            position: relative;
+            width: 100%;
+        }
+
+        .about__bali {
+            font-family: 'PTSerif';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 205px;
+            line-height: 3px;
+            left: 37px;
+            bottom: 70px;
+            position: relative;
+            color: #F8EEE4;
+            opacity: 0.4;
+        }
+
+        .about__indonesia {
+            font-family: 'PTSerif';
+            font-style: normal;
+            font-weight: bold;
+            font-size: 70px;
+            line-height: 0;
+            left: 98px;
+            bottom: 76px;
+            position: absolute;
+            color: #F8EEE4;
+        }
+
+        .about__text {
+            font-family: 'MuseoSansCyrl';
+            max-width: 500px;
+            font-size: 16px;
+            color: #F8EEE4;
+            letter-spacing: 0.2px;
+            bottom: 4px;
+            position: absolute;
+            margin-left: 52px;
+        }
+
+        .travel__button {
+            width: 213px;
+            height: 41px;
+            background: #D4BEA3;
+            border-radius: 55px;
+            font-size: 16px;
+            position: relative;
+            bottom: -46px;
+            margin-left: 55px;
+            outline: none;
+            border: none;
+            letter-spacing: 1px;
+            color: #FFFFFF;
+        }
+
+        .main__img {
+            display: flex;
+            justify-content: space-between;
+            overflow: hidden;
+            column-gap: 1px;
+            position: relative;
+            align-items: center;
+            width: 72%;
+            bottom: 8px;
+            margin: auto;
+        }
+
+        .img__balione {
+            background: url(img/1024one.png) no-repeat;
+            min-width: 250px;
+            margin-left: 54px;
+            border-radius: 5px;
+        }
+
+        .img__balitwo {
+            background: url(img/1024two.png) no-repeat;
+            min-width: 225px;
+            border-radius: 5px;
+        }
+
+        .img__balithree{
+            background: url(img/1024three.png) no-repeat;
+            border-radius: 5px;
+        }
+            }
 
     @media (max-width:375px) {
 
@@ -169,110 +344,134 @@ body{
         
         .wrapper {
             width: 100%;
+            margin: auto;
         }
+
+        .header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        }
+
+
+        .vector {
+            margin-left: 64px;
+            height: 71px;
+        }
+
         .vector__img {
-            width: 105px;
-            height: 39px;
-            margin-left: 39px;
-            margin-top: 42px;
+            width: 100%;
+            height: 76px;
         }
+
         .about__bali {
-            font: 700 168px/83px 'PT Serif';
+            font: 700 249px/356px 'PTSerif';
             background-blend-mode: overlay;
             display: flex;
             position: relative;
-            margin-left: -43px;
         }
 
         .about__indonesia {
-            font: 700 56px/41px 'PT Serif';
+            font: 700 88px/101px 'PTSerif';
             color: #F8EEE4;
+            margin-left: 10px;
             letter-spacing: 2px;
-            left: 99px;
-            top: 7px;
         }
 
         .main__section {
-            display: flex;
-            justify-content: space-between;
-            margin-left: 2px;
-            padding-top: 71px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        margin: auto;
         }
 
-        .about__text{
-            display: flex;
-            font-size: 18px;
-            color: #F8EEE4;
-            margin-top: 42px;
-            text-align: center;
-            margin-right: 5%;
-            margin-left: 15%;
+        .main__content {
+        position: relative;
+        justify-content: space-between;
+        align-items: center;
+        margin-left: auto;
+        width: 100%;
         }
 
-        .travel__button{
-            width: 284px;
-            height: 56px;
-            margin-left: 12%;
-            margin-top: 7%;
-            top: 547px;
-            background: #D4BEA3;
-            border-radius: 55px;
-            font-size: 22px;
-            line-height: 19px;
-            outline: none;
-            border: none;
-            letter-spacing: 1px;
-            color: #FFFFFF;
+        .about__text {
+        display: flex;
+        font-family: 'MuseoSansCyrl';
+        font-size: 21px;
+        height: 22px;
+        line-height: 34px;
+        color: #F8EEE4;
+        text-align: -webkit-center;
+        align-items: center;
+        margin-left: 20px;
         }
 
-        .div__description{
-            max-width: 100%;
+        .travel__button {
+        width: 313px;
+        height: 66px;
+        position: relative;
+        top: 148px;
+        left: 59px;
+        background: #D4BEA3;
+        border-radius: 55px;
+        font-size: 22px;
+        line-height: 19px;
+        outline: none;
+        border: none;
+        letter-spacing: 1px;
+        color: #FFFFFF;
         }
 
         .main__img {
-            display: none;
+        display: none;
+        }
+
+        .menu {
+        font-size: 14px;
+        margin-top: 11px;
         }
 
         .menu_list {
-            display: none;
+        display: none;
         }
 
         .menu-open{
-            display: block;
+        display: block;
         }
 
         .header_burger {
-            display: block;
-            position: relative;
-            height: 20px;
-            }
+        display: block;
+        height: 21px;
+        left: 175px;
+        position: relative;
+        z-index: 2;
+        }
             
-            .header_burger span{
+            .header_burger span {
                 position: absolute;
                 background-color: ivory;
                 left: 0;
-                width: 50px;
+                width: 47px;
                 height: 4px;
                 top: 9px;
                 transition: all 0.3s ease 0s;
             }
         
             .header_burger:before,
-            .header_burger:after{
+            .header_burger:after {
                 content:'';
                 background-color: ivory;
                 position: absolute;
-                width: 50px;
+                width: 47px;
                 height: 4px;
                 left: 0;
                 transition: all 0.3s ease 0s;
             }
         
-            .header_burger:before{
+            .header_burger:before {
                 top: 0;
             }
         
-            .header_burger:after{
+            .header_burger:after {
                 bottom: 0;
             }
         
@@ -283,24 +482,54 @@ body{
             .header_burger.active:before {
                 transform: rotate(45deg);
                 top: 9px;
+                background-color: black;
+                /* -webkit-transform: rotate(45deg);
+                -moz-transform: rotate(45deg);
+                -ms-transform: rotate(45deg);
+                -o-transform: rotate(45deg);*/
             }
         
             .header_burger.active:after {
                 transform: rotate(-45deg);
                 bottom: 9px;
+                background-color: black;
+                /*-webkit-transform: rotate(-45deg);
+                -moz-transform: rotate(-45deg);
+                -ms-transform: rotate(-45deg);
+                -o-transform: rotate(-45deg);*/
+            }
+
+            .header_burger.active ~ .menu .menu_list {
+                display: flex;
+                flex-direction: column;
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                height: 160vh;
+                width: 585px;
+                z-index: 1;
+                background-color: ivory;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .header_burger.active ~ .menu .menu__item {
+                color: #000;
+                font-family: 'MuseoSansCyrl';
             }
 
             input {
                 display: none;
             }
             
-            .menu__item{font-size: 32px;line-height: 61px;top: 165px;}
-            .header {
+            .menu__item {font-size: 32px;line-height: 61px;top: 165px;}
+            /*.header {
                 padding: 38px 0px;
                 margin-bottom: 15px;
                 margin-right: 66px;
                 padding-top: 11px;
-            }    
+            }   */ 
 
         }
 
