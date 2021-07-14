@@ -1,0 +1,26 @@
+.logo {
+    padding-top: 2px;
+}
+
+@media (max-width: 1024px)  {
+    .logo {
+        margin-left: 18px;
+        margin-top: 10px;
+        height: 38px;
+    }
+
+    .logo__img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .logo {
+        margin-left: 64px;
+        height: 71px;
+    }
+
+    .logo__img {
+        height: 76px;
+    }
+}

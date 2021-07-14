@@ -1,0 +1,95 @@
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+:root {
+    --t-font-primary: 'MuseoSansCyrl', sans-serif;
+    --t-font-secondary: 'PTSerif', sans-serif;
+
+    --t-color-black: #000;
+    --t-color-ivory: ivory;
+    --t-color-accent: #F8EEE4;
+}
+html {
+    box-sizing: border-box;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    -moz-font-smoothing: antialiased !important;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust: none;
+}
+html, body {
+    min-height: 100vh;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    background: url('./../../img/fon.jpg') no-repeat;
+    font-family: var(--t-font-primary);
+    font-style: normal;
+    font-weight: 500;
+    margin: 0;
+
+    overflow-x: hidden;
+}
+body.is-modal-opened {
+    overflow: hidden;
+}
+body::-webkit-scrollbar {
+    width: 12px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: #999;
+}
+body::-webkit-scrollbar-track {
+    background-color: #dbdbdb;
+}
+*:focus {
+    outline: none !important;
+}
+::-webkit-scrollbar {
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #d0d0d0;
+}
+::-webkit-scrollbar-track {
+    background-color: #eee;
+}
+strong, b {
+    font-weight: bold;
+}
+cite, dfn, em, i {
+    font-style: italic;
+}
+code {
+    display: block;
+    padding: 10px 20px;
+}
+q {
+    font-style: italic;
+}
+p {
+    margin: 20px 0;
+    font-size: 16px;
+    line-height: 1.75;
+}
+p:first-child {
+    margin-top: 0;
+}
+p:last-child {
+    margin-bottom: 0;
+}
+
+
+@media (max-width: 375px) {
+    body {
+        background-position: center center;
+        background-attachment: fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+}

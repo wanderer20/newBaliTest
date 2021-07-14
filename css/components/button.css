@@ -1,0 +1,39 @@
+/**
+TODO: перепиши все с классом .button, чтобы не было всяких position:absolute, а чтобы можно было таскать этот класс в другие места
+ */
+
+.travel__button {
+    position: relative;
+    width: 298px;
+    height: 63px;
+    background: #D4BEA3;
+    border-radius: 55px;
+    font-size: 22px;
+    margin-top: 20px;
+    margin-left: 22px;
+    outline: none;
+    border: none;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+@media (max-width: 1024px) {
+    .travel__button {
+        width: 213px;
+        height: 41px;
+        font-size: 16px;
+        bottom: -46px;
+        margin-left: 55px;
+    }
+}
+
+@media (max-width: 375px) {
+    .travel__button {
+        width: 313px;
+        height: 66px;
+        top: 148px;
+        left: 59px;
+        font-size: 22px;
+        line-height: 19px;
+    }
+}

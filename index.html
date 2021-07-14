@@ -3,50 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="fonts.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/base/reset.css">
+    <link rel="stylesheet" href="css/base/base.css">
+    <link rel="stylesheet" href="css/layout/header.css">
+    <link rel="stylesheet" href="css/layout/main.css">
+    <link rel="stylesheet" href="css/layout/wrapper.css">
+    <link rel="stylesheet" href="css/components/button.css">
+    <link rel="stylesheet" href="css/components/menu-burger.css">
+    <link rel="stylesheet" href="css/components/menu.css">
+    <link rel="stylesheet" href="css/components/logo.css">
+    <link rel="stylesheet" href="css/components/banner-block.css">
+    <link rel="stylesheet" href="css/base/fonts.css">
     <title>Bali</title>
 </head>
 <body>
-    <div class="container0ne">
-        <div class="wrapper">
-            <header class="header">
-                        <a href="" class="vector">
-                            <img src="img/Vector.svg" alt="" class="vector__img">
-                        </a>
-                        <div class="header_burger">
-                            <span></span>
-                        </div>
-                        <nav class="menu">
-                        <div class="menu_list">
-                            <a href="#" class="menu__item">Start</a>
-                            <a href="#" class="menu__item">Services</a>
-                            <a href="#" class="menu__item">About</a>
-                            <a href="#" class="menu__item">Blog</a>
-                            <a href="#" class="menu__item">Contact us</a>
-                        </div>
-                        </nav>
-            </header>
-            <section class="main__section">
-                <main class="main__content">
-                <div class="description__balind">
-                    <span class="about__bali">Bali</span>
-                    <span class="about__indonesia">Indonesia</span>
+<header class="header">
+    <div class="wrapper">
+        <div class="header__inner">
+            <a href="" class="logo">
+                <img src="img/Vector.svg" alt="" class="logo__img">
+            </a>
+            <div class="menu-burger" data-menu-burger>
+                <span></span>
+            </div>
+            <nav class="menu" data-menu>
+                <div class="menu__list">
+                    <a href="#" class="menu__item">Start</a>
+                    <a href="#" class="menu__item">Services</a>
+                    <a href="#" class="menu__item">About</a>
+                    <a href="#" class="menu__item">Blog</a>
+                    <a href="#" class="menu__item">Contact us</a>
                 </div>
-                    <div class="div__description">
-                        <p class="about__text"> Best Bali travel guide with great tips. Book hotels and
+            </nav>
+        </div>
+    </div>
+</header>
+
+<main class="main">
+    <section class="banner-block__wrapper">
+        <div class="wrapper">
+            <div class="banner-block__inner">
+                <div class="banner-block__content">
+                    <div class="banner-block__title">
+                        <span class="banner-block__island">Bali</span>
+                        <span class="banner-block__country">Indonesia</span>
+                    </div>
+                    <div class="banner-block__description">
+                        <p class="banner-block__text"> Best Bali travel guide with great tips. Book hotels and
                             villas, explore the best spas, events, Bali temples, scuba centers, and activities.</p>
                         <button class="travel__button">Book travel</button>
                     </div>
-                </main>
-                <main class="main__img">
-                    <div  class="img__balione"></div>
-                    <div  class="img__balitwo"></div>
-                    <div  class="img__balithree"></div>
-                </main>
-            </section>
+                </div>
+                <div class="banner-block__images">
+                    <div class="banner-block__images--1"></div>
+                    <div class="banner-block__images--2"></div>
+                    <div class="banner-block__images--3"></div>
+                </div>
+            </div>
         </div>
-    </div>
-    <script src="script.js"></script>
+    </section>
+</main>
+
+<script src="js/components/menu.js"></script>
 </body>
 </html>
